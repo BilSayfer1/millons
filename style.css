@@ -1,0 +1,142 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #252525;
+    color: white;
+    padding: 10px 20px;
+
+    .left,
+    .right {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        img {
+            padding-left: 10px;
+            width: 30px;
+            height: 20px;
+            object-fit: contain;
+        }
+
+        a {
+            text-decoration: none;
+            color: whitesmoke;
+        }
+    }
+}
+
+.second_header button img {
+    width: 40px;
+    gap: 10px;
+    margin-right: 10px;
+    height: 30px;
+}
+
+.second_header button {
+    width: 200px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    
+    background-color: firebrick;
+    height: 50px;
+    color: white;
+    align-items: center;
+    
+    
+}
+.logo_img {
+    margin: 7px 10px;
+}
+.input input{
+    padding-left: 5px;
+    border-radius: 10px;
+    width: 500px;
+    height: 60px;
+
+}
+
+.time img {
+    margin-bottom: 5px;
+    width: 30px;
+    height: 30px;
+}
+.second_header {
+    margin: 0px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.enter img {
+    margin-bottom: 5px;
+    width: 30px;
+    height: 30px;
+}
+.srav img {
+    margin-bottom: 5px;
+    width: 30px;
+    height: 30px;
+}
+.izb img {
+    margin-bottom: 5px;
+    width: 30px;
+    height: 30px;
+}
+.korzina img {
+    margin-bottom: 5px;
+    width: 40px;
+    height: 3x0px;
+}
+.third_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.third_header a {
+    margin: 10px 10px;
+    text-decoration: none;
+    color: black;
+}
+.reklama img {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+  width: 1300px;
+    margin: 0px 30px;
+}
+
+.btns img {
+width: 40px;
+height: 30px;
+}
+.products {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(6 , 1fr);
+    grid-auto-rows: 180px;
+    gap: 20px;
+    margin: 100px 20px;
+}
+.products button {
+    border: none;
+    width: 60px;
+    height: 40px;
+}
+#telejka {
+    background-color: red;
+
+}
+.gary {
+
+    color: red;
+}
